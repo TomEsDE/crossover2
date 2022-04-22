@@ -6,9 +6,16 @@
   box-sizing: border-box;
 }
 
-
+.heading {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px 50px;
+    margin-top: 30px;
+  }
 .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   -webkit-display: box;
   -moz-display: box;
   -ms-display: flexbox;
@@ -17,10 +24,16 @@
   padding: 0;
   margin: 0;
 }
-
+.heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
 
 .cards {
   display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
   margin-bottom: 2rem;
   width: 100%;
