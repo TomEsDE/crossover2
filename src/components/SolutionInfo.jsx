@@ -39,7 +39,7 @@ export default function SolutionInfo({
         {/* <div className="font-bold text-2xl md:text-3xl lg:text-4xl bg-teal-500 p-4 mb-2">
           {title}
         </div> */}
-        <div className="text px-5 pb-5 md:pb-0 pt-1 md:pt-0 h-full flex items-center justify-center text-xl sm:text-xl md:text-xl lg:text-2xl">
+        <div className="text px-5 pb-20 md:pb-0 pt-1 md:pt-0 h-full flex items-center justify-center text-xl sm:text-xl md:text-xl lg:text-2xl">
           {children}
         </div>
       </div>

@@ -55,7 +55,7 @@ export default function Solutions() {
       </div>
 
       <div className="whatcanyoudo pt-4 sm:pt-5 lg:pt-8">
-        <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl pt-20 pb-12 font-bold">
+        <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl md:pt-20 pb-12 font-bold">
           What can you do?
         </h2>
         {/* row */}
