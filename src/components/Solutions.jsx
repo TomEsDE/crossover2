@@ -9,7 +9,7 @@ export default function Solutions() {
       className="solutions w-full text-center font-noto flex flex-col mx-auto gap-0 color-primary"
     >
       <div className="technology">
-        <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl pt-20 pb-12">
+        <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl pt-8 md:pt-20 pb-0 md:pb-12">
           Solutions
         </h2>
         {/* row */}
