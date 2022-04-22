@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Map, Marker } from "pigeon-maps";
 import { stamenTerrain } from "pigeon-maps/providers";
 import axios from "axios";
+import "./style/mapLocation.scss";
 
 export default function MapLocation() {
   //creating IP state
