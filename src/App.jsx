@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Solutions from './components/Solutions';
 import AuthState from './context/AuthContext';
 import MapLocation from './components/MapLocation';
+import Causes from './components/Causes';
 import './style/app.scss';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Hero />
         <MapLocation />
+        <Causes />
         <Solutions />
         <Footer />
       </AuthState>

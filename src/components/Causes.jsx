@@ -3,6 +3,10 @@ import "./style/causes.scss";
 
 export default function Causes() {
   return (
+    <>
+    <div className="heading">
+      <h1>What causes Air Pollution?</h1>
+    </div>
     <div className="container">
     <div className="cards">
       <div className="card-item">
@@ -103,5 +107,6 @@ export default function Causes() {
       </div>
     </div>
   </div>
+  </>
   );
 }

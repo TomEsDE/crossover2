@@ -1,21 +1,17 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
+import { NavLink, Link } from 'react-router-dom';
+import { AuthContext } from '../context/AuthContext';
+
 import './style/navbar.scss';
 
 export default function Navbar() {
+  const { loggedIn, login, logout, user } = useContext(AuthContext);
+
   return (
-    <nav>
-      <span className="logo">Breathe Free</span>
-      <ul>
-        <li>
-          <a href="#map">Map</a>
-        </li>
-        <li>
-          <a href="#causes">Causes</a>
-        </li>
-        <li>
-          <a href="#solutions">Solutions</a>
-        </li>
-      </ul>
+    <nav className="flex gap-5 pt-4">
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/map">Map</NavLink>
+    
     </nav>
   );
 }
