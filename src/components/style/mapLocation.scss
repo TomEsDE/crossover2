@@ -1,18 +1,27 @@
+@import "../../style/variables.scss";
 #map {
-  border: 2px solid blueviolet;
+  min-height: 100vh;
 }
 
 .contentContainer {
   padding: 2rem;
+  margin: 3rem;
 
   .contentText {
     font-size: 2.2rem;
   }
 }
-
-.contentImage {
+.map {
   height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+.contentImage {
+  min-height: 40rem;
   width: 100%;
   background-image: url("../../assets/img.svg");
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
