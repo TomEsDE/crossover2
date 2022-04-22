@@ -1,7 +1,12 @@
+import React from "react";
 import "./style/causes.scss";
 
 export default function Causes() {
   return (
+    <>
+    <div className="heading">
+      <h1>What causes Air Pollution?</h1>
+    </div>
     <div className="container">
     <div className="cards">
       <div className="card-item">
@@ -25,7 +30,7 @@ export default function Causes() {
       <div className="card-item">
         <div className="card-image">
           <img
-                src="https://cdn.vox-cdn.com/thumbor/dM9cHVXsUXOU5alc-RdjyUQuMAE=/0x251:3504x2086/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/13341199/multimediaFile_2331.jpg"
+                src="https://www.thoughtco.com/thmb/dTXDjXH1pgn4UaV8Xo9lJcLFf4g=/1271x1271/smart/filters:no_upscale()/GettyImages-608873707-f359835d93ea4f0b95a50cbeeb839c05.jpg"
                 alt="volcano"
               />
         </div>
@@ -41,7 +46,7 @@ export default function Causes() {
       <div className="card-item">
         <div className="card-image">
           <img
-                src="https://i.guim.co.uk/img/media/aecd8230528dd61785203d304c139b52c6b79d70/0_0_4562_3035/master/4562.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=6d21bc3486bd734060cb1a5bd6c60fc3"
+                src="https://i.guim.co.uk/img/media/dc41bd464f73f4087f072113cd7674644fa9633c/0_234_3500_2100/master/3500.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=050471b5fec5df058111cafc28646019"
                 alt="wildfires"
               />
         </div>
@@ -102,5 +107,6 @@ export default function Causes() {
       </div>
     </div>
   </div>
+  </>
   );
 }
