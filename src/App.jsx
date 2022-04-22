@@ -2,6 +2,7 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import AuthState from './context/AuthContext';
+import MapLocation from './components/MapLocation';
 import './style/app.scss';
 
 function App() {
@@ -10,10 +11,7 @@ function App() {
       <AuthState>
         <Navbar />
         <Hero />
-        {/* <Map />
-        <Causes />
-        <Solutions />
-        <Substancs /> */}
+        <MapLocation />
         <Footer />
       </AuthState>
     </>
