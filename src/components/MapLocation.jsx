@@ -32,32 +32,38 @@ export default function MapLocation() {
     getPolution();
   }, []);
   return (
-    <div className="mapContainer">
-      <div className="contentContainer">
-        <div className="contentText">
-          <h1>
-            The current polution levels in {ip.city}, {ip.country_name},
-            {ip.state}
-          </h1>
-          <h2>The current pollution levels in are</h2>
+    <section
+      id="map"
+      className="solutions w-50 text-center font-noto flex flex-col gap-0 color-white"
+    >
+      <div className="mapContainer">
+        <div className="contentContainer">
+          <div className="contentText">
+            <h1>
+              The current polution levels in {ip.city}, {ip.country_name},
+              {ip.state}
+            </h1>
+            <h2>The current pollution levels in are</h2>
+            <p>Not looking so good</p>
+          </div>
+          <div className="contentImage"></div>
         </div>
-        <div className="contentImage">img</div>
+        <div className="map">
+          <Map
+            height={350}
+            center={center}
+            defaultZoom={zoom}
+            provider={stamenTerrain}
+            dprs={[1, 2]}
+            onBoundsChanged={({ center, zoom }) => {
+              setCenter(center);
+              setZoom(zoom);
+            }}
+          >
+            <Marker width={50} anchor={[ip.latitude, ip.longitude]} />
+          </Map>
+        </div>
       </div>
-      <div className="map">
-        <Map
-          height={300}
-          center={center}
-          defaultZoom={zoom}
-          provider={stamenTerrain}
-          dprs={[1, 2]}
-          onBoundsChanged={({ center, zoom }) => {
-            setCenter(center);
-            setZoom(zoom);
-          }}
-        >
-          <Marker width={50} anchor={[ip.latitude, ip.longitude]} />
-        </Map>
-      </div>
-    </div>
+    </section>
   );
 }
