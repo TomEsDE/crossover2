@@ -26,13 +26,16 @@ nav {
         padding: 1rem 2rem;
         border-radius: 99px;
         opacity: 0.8;
+        border: none;
 
         &:hover {
           opacity: 1;
+          border: none;
         }
 
         &:active {
           opacity: 0.8;
+          border: none;
         }
       }
     }
