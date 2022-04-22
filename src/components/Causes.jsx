@@ -4,6 +4,7 @@ import "./style/causes.scss";
 export default function Causes() {
   return (
     <>
+    <section id = "causes" className="causes-section">
     <div className="heading">
       <h1>What causes Air Pollution?</h1>
     </div>
@@ -107,6 +108,7 @@ export default function Causes() {
       </div>
     </div>
   </div>
+  </section>
   </>
   );
 }

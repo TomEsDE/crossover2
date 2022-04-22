@@ -26,7 +26,9 @@
 }
 .heading {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+    font-color: blue;
+    font-weight: 500;
     margin-bottom: 50px;
   }
 
@@ -34,6 +36,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 10px;
   padding: 1rem;
   margin-bottom: 2rem;
   width: 100%;
