@@ -25,16 +25,5 @@ section.hero {
     .logo {
       font-size: 6.4rem;
     }
-
-    a {
-      font-size: 1.2rem;
-      text-transform: uppercase;
-      border-bottom: 1px dashed white;
-      transition: all 0.3s;
-
-      &:hover {
-        border-bottom: 1px dashed transparent;
-      }
-    }
   }
 }
