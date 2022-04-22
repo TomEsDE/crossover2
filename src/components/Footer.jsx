@@ -42,7 +42,12 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="footer-secondary"></div>
+      <div className="footer-secondary">
+        <span>© Breathe Free LLC, All Rights Reserved</span>
+        <div className="footer-quick-links">
+          <span>Privacy Policy | Terms of Use | FAQ</span>
+        </div>
+      </div>
     </footer>
   );
 }

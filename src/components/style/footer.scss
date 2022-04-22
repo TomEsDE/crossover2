@@ -3,9 +3,9 @@
 footer {
   margin-top: 2rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
 
   .footer-primary {
     width: 100%;
@@ -45,5 +45,10 @@ footer {
   }
 
   .footer-secondary {
+    background-color: #00000060;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
   }
 }
