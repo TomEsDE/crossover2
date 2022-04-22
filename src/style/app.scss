@@ -22,6 +22,18 @@ body {
   padding: 0;
 }
 
+a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px dashed currentColor;
+  transition: all 0.3s;
+
+  &:hover {
+    border-bottom: 1px dashed transparent;
+  }
+}
+
 .font-primary {
   font-family: $primary-font;
 }
