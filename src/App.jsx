@@ -20,6 +20,8 @@ function App() {
         <Solutions />
         <Substancs />
       </AuthState>
+
+
     </>
   );
 }
