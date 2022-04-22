@@ -1,0 +1,14 @@
+@import '../../style/variables.scss';
+
+nav {
+  font-family: $page-font;
+  
+  a {
+    color: $primary-color; 
+  
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
