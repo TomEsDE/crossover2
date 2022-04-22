@@ -40,17 +40,17 @@ export default function MapLocation() {
         <div className="contentContainer">
           <div className="contentText">
             <h1>
-              The current polution levels in {ip.city}, {ip.country_name},
-              {ip.state}
+              {ip.city}, {ip.country_name},{ip.state}
             </h1>
-            <h2>The current pollution levels in are</h2>
+            <h1>The current pollution levels in are</h1>
             <p>Not looking so good</p>
           </div>
           <div className="contentImage"></div>
         </div>
         <div className="map">
           <Map
-            height={350}
+            className="map"
+            height={300}
             center={center}
             defaultZoom={zoom}
             provider={stamenTerrain}
