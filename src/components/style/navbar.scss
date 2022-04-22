@@ -1,14 +1,40 @@
 @import '../../style/variables.scss';
 
+.logo {
+  font-size: 4rem;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  font-family: $secondary-font;
+}
+
 nav {
-  font-family: $page-font;
-  
-  a {
-    color: $primary-color; 
-  
-    &:hover {
-      color: $secondary-color;
+  display: flex;
+  background-color: #ffffff20;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  ul {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    gap: 1rem;
+    li {
+      a {
+        color: white;
+        background-color: $secondary-color;
+        padding: 1rem 2rem;
+        border-radius: 99px;
+        opacity: 0.8;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        &:active {
+          opacity: 0.8;
+        }
+      }
     }
   }
 }
-

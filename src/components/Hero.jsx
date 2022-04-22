@@ -1,6 +1,7 @@
 import React from 'react';
-import './style/navbar.scss';
+import './style/hero.scss';
 
 export default function Hero() {
-  return <section className="hero">Hero</section>;
+  return <section className="hero">
+    <span className=''>breathe free</span></section>;
 }
