@@ -6,10 +6,10 @@ export default function Solutions() {
   return (
     <section
       id="solutions"
-      className="solutions w-full text-center font-noto flex flex-col gap-0 color-primary"
+      className="solutions w-full text-center font-noto flex flex-col mx-auto gap-0 color-primary"
     >
       <div className="technology">
-        <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl pt-20 pb-12 font-bold">
+        <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl pt-8 md:pt-20 pb-0 md:pb-12">
           Solutions
         </h2>
         {/* row */}
@@ -55,7 +55,7 @@ export default function Solutions() {
       </div>
 
       <div className="whatcanyoudo pt-4 sm:pt-5 lg:pt-8">
-        <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl md:pt-20 pb-12 font-bold">
+        <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl pt-20 pb-12">
           What can you do?
         </h2>
         {/* row */}

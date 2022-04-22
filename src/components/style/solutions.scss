@@ -1,11 +1,11 @@
 @import '../../style/variables.scss';
 
 section.solutions {
+  max-width: 1440px;
   
   h2 {
     // font-size: 40pt;
-    font-weight: 900;
-    text-shadow: 1px 1px 3px lightcyan;
+    // text-shadow: 0px 1px 3px lightcyan;
   }
 
   .info-img {
@@ -18,7 +18,13 @@ section.solutions {
 
   .text {
     line-height: inherit;
-    font-size: calc(.5rem + 1.8vw);
+    font-size: min(3.5rem, calc(.7rem + 1.5vw));
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .bg-odd {
+    background: linear-gradient(to bottom, $primary-bg, #b7c097, $primary-bg);
   }
 }
 
