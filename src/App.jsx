@@ -1,18 +1,19 @@
-/* import { Route, Routes } from "react-router-dom";
-import Layout from "./components/Layout";
-import Home from "./components/Home"; */
-import MapLocation from "./components/MapLocation";
-import "./style/app.scss";
-
-/* import Page403 from './components/403';
-import Page404 from './components/404'; */
-
-//CREATE & IMPORT YOUR FUNCTION WHEN READY
+import Footer from './components/Footer';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import AuthState from './context/AuthContext';
+import MapLocation from './components/MapLocation';
+import './style/app.scss';
 
 function App() {
   return (
     <>
-      <MapLocation />
+      <AuthState>
+        <Navbar />
+        <Hero />
+        <MapLocation />
+        <Footer />
+      </AuthState>
     </>
   );
 }
