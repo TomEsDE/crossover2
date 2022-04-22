@@ -12,6 +12,18 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.mapContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem;
+}
+.contentContainer {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
 }

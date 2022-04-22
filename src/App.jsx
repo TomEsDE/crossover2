@@ -1,9 +1,9 @@
-import { Route, Routes } from "react-router-dom";
+/* import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
-import Home from "./components/Home";
-import MapPage from "./components/MapPage";
+import Home from "./components/Home"; */
+import MapLocation from "./components/MapLocation";
 import "./style/app.scss";
-import AuthState from "./context/AuthContext";
+
 /* import Page403 from './components/403';
 import Page404 from './components/404'; */
 
@@ -12,14 +12,7 @@ import Page404 from './components/404'; */
 function App() {
   return (
     <>
-      <AuthState>
-        <Navbar />
-        <Hero />
-        <Map />
-        <Causes />
-        <Solutions />
-        <Substancs />
-      </AuthState>
+      <MapLocation />
     </>
   );
 }
