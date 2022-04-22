@@ -1,0 +1,23 @@
+@import '../../style/variables.scss';
+
+section.solutions {
+  
+  h2 {
+    font-size: 40pt;
+    
+  }
+
+  .info-img {
+    // border: 1px solid black;
+    // background-image: url('https://i.ytimg.com/vi/PBtgQU8Gvqk/maxresdefault.jpg');
+    // background-size: cover;
+    // background-position: center;
+
+  }
+
+  .text {
+    line-height: inherit;
+    font-size: calc(.5rem + 1.5vw);
+  }
+}
+
