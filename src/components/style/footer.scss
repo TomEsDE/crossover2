@@ -1,5 +1,49 @@
 @import '../../style/variables.scss';
 
 footer {
-  
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+
+  .footer-primary {
+    width: 100%;
+    background-color: #ffffff20;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    color: #00000080;
+    padding: 2rem;
+
+    .footer-panel {
+      padding: 4rem;
+      h3 {
+        color: $secondary-color;
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 1px solid $secondary-color;
+        padding-bottom: 0.4rem;
+        margin-bottom: 2rem;
+      }
+      border: 1px dashed #00000040;
+    }
+
+    .get-in-touch {
+      
+    }
+
+    .community {
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  }
+
+  .footer-secondary {
+  }
 }
