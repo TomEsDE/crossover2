@@ -1,16 +1,21 @@
-import './style/app.scss';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Solutions from './components/Solutions';
-
-//CREATE & IMPORT YOUR FUNCTION WHEN READY
+import AuthState from './context/AuthContext';
+import MapLocation from './components/MapLocation';
+import './style/app.scss';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <main>
+      <AuthState>
+        <Navbar />
+        <Hero />
+        <MapLocation />
         <Solutions />
-      </main>
+        <Footer />
+      </AuthState>
     </>
   );
 }
