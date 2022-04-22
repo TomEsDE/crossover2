@@ -11,21 +11,24 @@ export default function Footer() {
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
             sint maxime deleniti! Illum in natus labore, culpa quis ab quos!
           </p>
-          <div className="social-icons">
-            <a href="#">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a href="#">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#">
-              <i className="fab fa-instagram"></i>
-            </a>
-          </div>
         </div>
 
         <div className="footer-panel get-in-touch">
           <h3>Get In Touch</h3>
+          <ul>
+            <li>
+              <a href="#">📍 3655 Shenandoah Rd., Luray, VA 22835</a>
+            </li>
+            <li>
+              <a href="#">📞 (012) 345 6789</a>
+            </li>
+            <li>
+              <a href="#">✉️ info@breathefree.de</a>
+            </li>
+            <li>
+              <a href="#">🕑 Mon - Fri, 9AM - 10PM</a>
+            </li>
+          </ul>
         </div>
         <div className="footer-panel community">
           <h3>Community</h3>
